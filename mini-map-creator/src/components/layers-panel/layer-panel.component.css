@@ -1,0 +1,23 @@
+.layer-panel {
+  background-color: #FFFFFF;
+  border-top: 0.25rem solid #000000;
+  color: #000000;
+  margin: -0.5rem 0.5rem 0.5rem 0.5rem;
+  max-height: 60vh;
+  min-width: 320px;
+  overflow: auto;
+  padding: 0.5rem;
+  width: 25vw;
+}
+
+.layer {
+  border-bottom: 1px solid #CCC;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+}
+
+.layer__label {
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
+}
