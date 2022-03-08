@@ -1,0 +1,20 @@
+.size-panel {
+  background-color: #FFFFFF;
+  border-top: 0.25rem solid #000000;
+  left: 3.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 15vw;
+}
+
+.size-panel__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.size-input {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

@@ -8,5 +8,6 @@
                         :onClick="tool.callback" />
     <LayerControlPanel v-if="layerPanelIsOpen"
                        :map="map" />
+    <SizeControlPanel :map="map" />
   </navigation>
 </template>
